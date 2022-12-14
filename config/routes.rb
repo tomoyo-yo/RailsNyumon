@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   # root "articles#index"
   get "hello/index"
   get "hello", to: "hello#index"
+  get "hello/other"
 end
